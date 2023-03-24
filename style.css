@@ -28,15 +28,19 @@
 #themes {
     color: white;
 }
+
 #blue {
-background-color: #107BC0;
+    background-color: #107BC0;
 }
+
 #roundGreen {
     background-color: cadetblue;
 }
+
 #roundSilver {
     background-color: rgb(196, 190, 190);
 }
+
 #roundYellow {
     background-color: rgb(196, 196, 62);
 }
@@ -204,7 +208,7 @@ background-color: #107BC0;
     justify-content: center;
     font-size: 2rem;
     font-weight: 600;
-   
+
 
 }
 
@@ -226,6 +230,7 @@ background-color: #107BC0;
     color: white;
     transition: .6s;
 }
+
 #inst:hover {
     background-color: white;
     color: #8941A7;
@@ -237,6 +242,7 @@ background-color: #107BC0;
     color: white;
     transition: .6s;
 }
+
 #twit:hover {
     background-color: white;
     border: 1px solid #107BC0;
@@ -248,15 +254,18 @@ background-color: #107BC0;
     transition: .6s;
     color: white;
 }
+
 #fb:hover {
     background-color: white;
     border: 1px solid #039BE5;
-    color:#039BE5;
+    color: #039BE5;
 }
+
 #tel {
     background-color: #107BC0;
     color: white;
 }
+
 #tel:hover {
     background-color: white;
     color: #107BC0;
@@ -887,16 +896,18 @@ footer {
 }
 
 @media screen and (max-width: 632px) {
-.socialIcons {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .socialIcons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .socialLogo {
+        width: 50vw;
+
+    }
 }
-.socialLogo {
-    width: 50vw;
-    
-}
-}
+
 @media screen and (max-width: 430px) {
     .footerLogos {
         display: flex;
@@ -912,18 +923,49 @@ footer {
         flex-direction: column;
     }
 }
+
 @media screen and (max-width: 430px) {
     .imageParagraphLogo {
         padding: 15px;
     }
 }
+
 @media screen and (max-width: 430px) {
     .imageParagraphLogo {
         padding: 30px;
     }
 }
+
 @media screen and (max-width: 830px) {
     .mainContainer {
         padding: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sixthContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 567px) {
+    .topBookmark {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .newContainer {
+        margin-left: 20%;
+      
     }
 }
